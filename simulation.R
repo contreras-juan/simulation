@@ -7,4 +7,5 @@ x <- as.data.frame(x)
 
 ggplot(x, aes(x=x)) + 
   geom_density() +
-  theme_minimal()
+  theme_minimal() +
+  labs(title="Simulation")
